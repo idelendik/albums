@@ -1,0 +1,12 @@
+/.idea
+/vendor
+/db
+/storage
+/node_modules
+/coverage
+
+TODO.md
+
+.DS_Store
+.env.production
+.phpunit.result.cache

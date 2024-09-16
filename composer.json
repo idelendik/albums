@@ -1,0 +1,20 @@
+{
+  "autoload": {
+    "psr-4": {
+      "Albums\\": "app/"
+    },
+    "files": [
+      "app/core/helpers.php"
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "require-dev": {
+    "laravel/pint": "^1.5",
+    "larapack/dd": "^1.1",
+    "phpunit/phpunit": "^9.6"
+  }
+}
